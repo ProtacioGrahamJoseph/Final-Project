@@ -1,0 +1,1 @@
+Elysium is a food delivery web-system. Currently, it only has the base foundations, lacking a landing page, yet the tabs I need to see is in regards to promotional material, the restaurants in question, the choices of food, quantity, the ordering page, a way to set location, and whatever else.
