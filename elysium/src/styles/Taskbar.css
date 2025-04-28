@@ -1,0 +1,49 @@
+/* General taskbar container */
+.taskbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    color: white;
+    box-sizing: border-box; /* Ensure padding doesn't cause overflow */
+    height: 60px; /* Adjust height if needed */
+  }
+  
+  .taskbar-logo h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .taskbar-links {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .taskbar-link {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s;
+  }
+  
+  .taskbar-link:hover {
+    color: #ff9900;  /* Change to any color you'd prefer */
+  }
+  
+  /* Ensure body content does not get covered by the fixed taskbar */
+  body {
+    margin: 0;
+    padding-top: 60px; /* Space for taskbar height */
+  }
+  
+  /* Optional: If you need the register page to have more space */
+  .register-container {
+    padding-top: 80px; /* Make sure the register page content starts below the taskbar */
+  }
+  
